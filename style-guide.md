@@ -10,10 +10,11 @@ The designs were created to the following widths:
 <h2>Colors</h2>
 
 <strong>Primary</strong>
-Dark cyan: hsl(185, 75%, 39%) Very dark desaturated blue: hsl(229, 23%, 23%) Dark grayish blue: hsl(227, 10%, 46%)
+Dark: 	hsl(20, 12%, 14%) 
+Light: hsl(32, 29%, 82%)
 
 <strong>Neutral</strong>
-Dark gray: hsl(0, 0%, 59%)
+Light-Dark: hsl(21, 16%, 31%)
 
 <h2>Typograph</h2>
 <h2>Body Copy</h2>
