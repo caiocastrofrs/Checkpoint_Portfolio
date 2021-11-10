@@ -1,0 +1,43 @@
+@import '../abstracts/variables.module.scss';
+@import url('https://fonts.googleapis.com/css2?family=Six+Caps&display=swap');
+.header {
+    background-color: $primary-dark;
+    display: flex;
+    justify-content: space-between;
+    &__logo {
+        margin-left: 3rem;
+        text-align: center;
+        color: $color-white;
+        font-size: 5.5rem;
+        font-family: 'Six Caps', sans-serif;
+    }
+    &__nav {
+        &__ul {
+            display: flex;
+            justify-content: center;
+            height: 100%;
+            align-items: center;
+            &__item {
+                color: $color-white;
+                display: inline-block;
+                font-size: 1.6rem;
+                transition: all .3s;
+                margin: 1rem;
+                padding: .8rem;
+                &:not(:first-child) {
+                    margin-right: 7rem;
+                }
+                background-image: linear-gradient(69deg, transparent 0%, transparent 50%, $color-white 50%);
+                background-size: 220%;
+                transition: all .4s;
+                font-weight: 700;
+                &:hover {
+                    background-position: 100%;
+                    color: $primary-dark;
+                    transform: translateX(1rem);
+                }
+            }
+        }
+    }
+
+}

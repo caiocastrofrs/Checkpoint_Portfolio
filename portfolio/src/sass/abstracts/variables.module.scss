@@ -1,0 +1,11 @@
+//COLOR VARIABLES
+$primary-dark: hsl(20, 12%, 14%);
+$primary-light: hsl(32, 29%, 82%);
+$neutral-color: hsl(21, 16%, 31%);
+$color-white: #fff;
+:export {
+    primary-dark: $primary-dark;
+    primary-light: $primary-light;
+    neutral-color: $neutral-color;
+    color-white: $color-white;
+}

@@ -12,7 +12,6 @@ The designs were created to the following widths:
 <strong>Primary</strong>
 Dark: 	hsl(20, 12%, 14%) 
 Light: hsl(32, 29%, 82%)
-
 <strong>Neutral</strong>
 Light-Dark: hsl(21, 16%, 31%)
 
@@ -26,5 +25,5 @@ Light-Dark: hsl(21, 16%, 31%)
     <li>Weights: 400, 700</li>
     <li>Link: https://fonts.google.com/specimen/Rubik</li>
 </ul>
-
+<p>Font family LOGO: https://fonts.google.com/specimen/Six+Caps</p>
 <h3>Wireframe: https://wireframe.cc/D2dCDu</h3>
