@@ -9,6 +9,7 @@
         color: $primary-dark;
         font-size: 10rem;
         font-family: 'Six Caps', sans-serif;
+        animation: initial-entrance 1.2s;
     }
     &__nav {
         &__ul {
@@ -23,6 +24,7 @@
                 margin: 1.5rem;
                 padding: .8rem;
                 height: 4rem;
+                animation: initial-entrance-item 1.2s;
                 &:not(:first-child) {
                     margin-right: 7rem;
                 }
@@ -40,3 +42,27 @@
     }
 
 }
+
+@keyframes initial-entrance {
+    from {
+        opacity: 0;
+        transform: translateY(4rem);
+    } 
+    to {
+        opacity: 1;
+        transform: translateY(0);
+    }
+}
+
+@keyframes initial-entrance-item {
+    from {
+        opacity: 0;
+        transform: translateX(4rem);
+    } 
+    to {
+        opacity: 1;
+        transform: translateX(0);
+    }
+}
+
+
