@@ -5,6 +5,7 @@
     justify-content: space-between;
     &__logo {
         margin-left: 3rem;
+        letter-spacing: 1.2rem;
         text-align: center;
         color: $primary-dark;
         font-size: 10rem;
@@ -17,25 +18,29 @@
             justify-content: center;
             height: 100%;
             &__item {
-                color: $primary-dark;
                 display: inline-block;
-                font-size: 1.6rem;
+                
+                &:not(:first-child) {
+                    margin-right: 7rem;
+                }
                 transition: all .3s;
                 margin: 1.5rem;
                 padding: .8rem;
                 height: 4rem;
                 animation: initial-entrance-item 1.2s;
-                &:not(:first-child) {
-                    margin-right: 7rem;
+                &__link:link,
+                &__link:visited{
+                    text-decoration: none;
+                    color: $primary-dark;
+                    font-size: 1.6rem;
                 }
-                background-image: linear-gradient(69deg, transparent 0%, transparent 50%, $color-white 50%);
+                background-image: linear-gradient(69deg, transparent 50%, $color-white 50%);
                 background-size: 220%;
                 transition: all .4s;
                 font-weight: 700;
                 &:hover {
                     background-position: 100%;
-                    color: $primary-dark;
-                    transform: translateX(1rem);
+                    transform: translateX(.3rem);
                 }
             }
         }

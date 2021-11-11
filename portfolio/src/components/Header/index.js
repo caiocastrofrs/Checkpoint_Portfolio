@@ -1,5 +1,5 @@
 import '../../sass/layout/header.scss'
-import { List } from 'react-bootstrap-icons';
+
 
 const Header = () => {
     return(
@@ -11,8 +11,8 @@ const Header = () => {
             <nav className="header__nav">
               
                 <ul className="header__nav__ul">
-                    <li className="header__nav__ul__item">Projetos</li>
-                    <li className="header__nav__ul__item">Contato</li>
+                    <li className="header__nav__ul__item"><a href="#" className="header__nav__ul__item__link">Projetos</a></li>
+                    <li className="header__nav__ul__item"><a href="#" className="header__nav__ul__item__link">Contato</a></li>
                 </ul>
             </nav>
         </header>
