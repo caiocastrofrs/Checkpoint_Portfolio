@@ -1,0 +1,20 @@
+@keyframes introText {
+    0% {
+        opacity: 0;
+        transform: translate(-50%,-60%);
+    }
+    100% {
+        opacity: 1;
+        transform: translate(-50%,-50%);
+    }
+}
+
+@keyframes arrowDown {
+    0% {
+        opacity: 0;
+    }
+    100% {
+        opacity: 1;
+    }
+
+}
