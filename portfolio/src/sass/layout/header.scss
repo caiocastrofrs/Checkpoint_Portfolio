@@ -1,5 +1,7 @@
 @import '../abstracts/variables.module.scss';
 @import url('https://fonts.googleapis.com/css2?family=Six+Caps&display=swap');
+@import '../keyframes/Header/keyframes.css';
+
 .header {
     display: flex;
     justify-content: space-between;
@@ -10,7 +12,7 @@
         color: $primary-dark;
         font-size: 10rem;
         font-family: 'Six Caps', sans-serif;
-        animation: initial-entrance 1.2s;
+        animation: initial-entrance 1.5s;
     }
     &__nav {
         &__ul {
@@ -19,7 +21,7 @@
             height: 100%;
             &__item {
                 display: inline-block;
-                
+                letter-spacing: .2rem;
                 &:not(:first-child) {
                     margin-right: 7rem;
                 }
@@ -27,7 +29,7 @@
                 margin: 1.5rem;
                 padding: .8rem;
                 height: 4rem;
-                animation: initial-entrance-item 1.2s;
+                animation: initial-entrance-item 1s;
                 &__link:link,
                 &__link:visited{
                     text-decoration: none;
@@ -37,7 +39,7 @@
                 background-image: linear-gradient(69deg, transparent 50%, $color-white 50%);
                 background-size: 220%;
                 transition: all .4s;
-                font-weight: 700;
+                font-weight: 500;
                 &:hover {
                     background-position: 100%;
                     transform: translateX(.3rem);
@@ -46,28 +48,6 @@
         }
     }
 
-}
-
-@keyframes initial-entrance {
-    from {
-        opacity: 0;
-        transform: translateY(4rem);
-    } 
-    to {
-        opacity: 1;
-        transform: translateY(0);
-    }
-}
-
-@keyframes initial-entrance-item {
-    from {
-        opacity: 0;
-        transform: translateX(4rem);
-    } 
-    to {
-        opacity: 1;
-        transform: translateX(0);
-    }
 }
 
 
