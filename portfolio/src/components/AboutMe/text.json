@@ -1,0 +1,13 @@
+[
+    {
+        "name" : "Caio Castro",
+        "info" : "Olá, eu sou o Caio. Estudo programação desde 2018 quando comecei um curso técnico de informática do Centro Paula Souza. Em maio de 2021 entrei no Certified Tech Developer da Digital House e venho tendo uma progressão de aprendizado bem satisfatória. Cada projeto que fiz é importante para documentar a minha evolução, acho interessante ter no meu portfólio projetos do mais 'simples' até ao mais recente que contempla minha atual capacidade.",
+        "school1" : "Informática - ETEC Albert Einstein, Centro Paula Souza",
+        "school2" : "Certified Tech Developer - Digital House",
+        "skill1" : "HTML5",
+        "skill2" : "CSS3",
+        "skill3" : "JavaScript",
+        "skill4" : "Sass",
+        "skill5" : "React"
+    }
+]
