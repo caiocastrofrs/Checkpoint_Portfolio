@@ -1,7 +1,6 @@
 import '../../sass/layout/banner.scss';
 import sample from './Video/video.mp4';
 import arrowDown from '../img/icons/arrow-down.svg';    
-
 const Banner = () => {
     return(
         <>
@@ -18,7 +17,6 @@ const Banner = () => {
                 <source src={sample} type="video/mp4" />
                 Your browser is not supported!
             </video>
-            
         </section>
         </>
     );

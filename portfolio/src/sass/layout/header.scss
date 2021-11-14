@@ -36,15 +36,11 @@
                     color: $primary-dark;
                     font-size: 1.6rem;
                     display: block;
-                    border-bottom: 4px solid $color-white;
                     transition: all .4s;
                 }
                 &:hover {
                     background-position: 100%;
                     transform: translateX(.3rem);
-                }
-                &:hover &__link {
-                    border-bottom-color: $primary-dark;
                 }
             }
         }
