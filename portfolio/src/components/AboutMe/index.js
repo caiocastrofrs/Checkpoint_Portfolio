@@ -1,5 +1,12 @@
 import '../../sass/layout/aboutme.scss';
-import texts from './text.json';
+import texts from './text.json';  
+import html5 from '../img/icons/html5.png';    
+import css3 from '../img/icons/css3.png';    
+import javascript from '../img/icons/javascript.png';    
+import sass from '../img/icons/sass.png';    
+import react from '../img/icons/react.png';    
+
+
 
 const AboutMe = () => {
     return(
@@ -23,13 +30,13 @@ const AboutMe = () => {
                             <li className="about-me__div__tech-info__scholls__item">{texts[0].school1}</li>
                             <li className="about-me__div__tech-info__scholls__item">{texts[0].school2}</li>
                         </ul>
-                        <ul className="about-me__div__tech-info_skills">
+                        <ul className="about-me__div__tech-info__skills">
                             <h4 className="about-me__div__tech-info__skills__title">Skills</h4>
-                            <li className="about-me__div__tech-info__skills__item">{texts[0].skill1}</li>
-                            <li className="about-me__div__tech-info__skills__item">{texts[0].skill2}</li>
-                            <li className="about-me__div__tech-info__skills__item">{texts[0].skill3}</li>
-                            <li className="about-me__div__tech-info__skills__item">{texts[0].skill4}</li>
-                            <li className="about-me__div__tech-info__skills__item">{texts[0].skill5}</li>
+                            <li className="about-me__div__tech-info__skills__item"><img src={html5} alt="html5 icon"/></li>
+                            <li className="about-me__div__tech-info__skills__item"><img src={css3} alt="css3 icon"/></li>
+                            <li className="about-me__div__tech-info__skills__item"><img src={javascript} alt="javascript icon"/></li>
+                            <li className="about-me__div__tech-info__skills__item"><img src={sass} alt="sass icon"/></li>
+                            <li className="about-me__div__tech-info__skills__item"><img src={react} alt="react icon"/></li>
                         </ul>
                     </div>
                     

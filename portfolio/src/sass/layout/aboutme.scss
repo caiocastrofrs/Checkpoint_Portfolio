@@ -4,12 +4,8 @@
     display: flex;
     align-items:center;
     justify-content: center;
-    width: 100vw;
-    height: 100vh;
     background-color: $primary-light;
-    overflow: hidden;
     background-image: linear-gradient(180deg, $primary-light 0%, $color-white 100%);
-
     &__div {
         display: flex;
         flex-direction: row;
@@ -18,7 +14,7 @@
         width: 60%;
         background-color: #f3f3f3;
         position: relative;
-        margin-top: 12rem;
+        margin: 15rem;
         padding-bottom: 2rem;
         border-radius: 1rem;
         -webkit-box-shadow: 0px 0px 125px -1px rgba(198,198,204,1);
@@ -36,6 +32,7 @@
             height: 10rem;
             position: relative;
             padding: 2rem;
+            margin-bottom: 2rem;
             span {
                 width: 12rem;
                 font-size: 2rem;
@@ -70,16 +67,21 @@
                     font-weight: 700;
                 }
                 &__item {
-                    margin: 1rem;
                 }
             }
             &__skills {
+                display: flex;
+                flex-wrap: wrap;
+                justify-content: space-between;
+                gap: 2rem;
                 &__title {
-                    font-weight: 700;
+                    width: 100%;
+                    font-weight: 700;   
+                    margin-bottom: 2rem;    
                 }
                 &__item {
                     display: inline-block;
-                    margin: 1rem;
+
                 }
             }
             
