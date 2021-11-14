@@ -1,17 +1,16 @@
 @import '../abstracts/variables.module.scss';
 @import url('https://fonts.googleapis.com/css2?family=Six+Caps&display=swap');
 @import '../keyframes/Header/keyframes.css';
-
 .header {
     display: flex;
     justify-content: space-between;
     &__logo {
         margin-left: 3rem;
-        letter-spacing: 1.2rem;
+        letter-spacing: 1.3rem;
         text-align: center;
         color: $primary-dark;
         font-size: 10rem;
-        font-family: 'Six Caps', sans-serif;
+        font-family: 'Six Caps', sans-serif !important;
         animation: initial-entrance 1.5s;
     }
     &__nav {
@@ -21,28 +20,31 @@
             height: 100%;
             &__item {
                 display: inline-block;
-                letter-spacing: .2rem;
                 &:not(:first-child) {
                     margin-right: 7rem;
                 }
-                transition: all .3s;
                 margin: 1.5rem;
                 padding: .8rem;
                 height: 4rem;
-                animation: initial-entrance-item 1s;
-                &__link:link,
-                &__link:visited{
-                    text-decoration: none;
-                    color: $primary-dark;
-                    font-size: 1.6rem;
-                }
                 background-image: linear-gradient(69deg, transparent 50%, $color-white 50%);
                 background-size: 220%;
-                transition: all .4s;
-                font-weight: 500;
+                letter-spacing: .2rem;
+                animation: initial-entrance-item 1s;
+                transition: all .3s;
+                &__link:link,
+                &__link:visited{
+                    color: $primary-dark;
+                    font-size: 1.6rem;
+                    display: block;
+                    border-bottom: 4px solid $color-white;
+                    transition: all .4s;
+                }
                 &:hover {
                     background-position: 100%;
                     transform: translateX(.3rem);
+                }
+                &:hover &__link {
+                    border-bottom-color: $primary-dark;
                 }
             }
         }
