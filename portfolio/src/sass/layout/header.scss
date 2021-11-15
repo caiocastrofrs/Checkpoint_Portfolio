@@ -2,6 +2,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Six+Caps&display=swap');
 @import '../keyframes/Header/keyframes.css';
 @import '../abstracts/mixins.scss';
+
 .header {
     display: flex;
     justify-content: space-between;
@@ -36,7 +37,6 @@
                         margin-right: 3rem;
                     }
                 }
-                
                 margin: 1.5rem;
                 padding: .8rem;
                 height: 4rem;
