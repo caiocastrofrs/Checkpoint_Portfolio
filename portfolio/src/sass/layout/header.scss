@@ -1,23 +1,22 @@
 @import '../abstracts/variables.module.scss';
 @import url('https://fonts.googleapis.com/css2?family=Six+Caps&display=swap');
 @import '../keyframes/Header/keyframes.css';
+@import '../abstracts/mixins.scss';
 .header {
     display: flex;
     justify-content: space-between;
     &__logo {
         margin-left: 3rem;
+
         letter-spacing: 1.3rem;
         text-align: center;
         color: $light;
         font-size: 10rem;
-        @media (max-width: 98.3rem) {
-            font-size: 8rem;
-        }
-        @media (max-width: 87.2rem) {
+        @include respond(tab-land) {
             font-size: 7rem;
         }
-        @media(max-width: 65.4rem) {
-            font-size: 5rem;
+        @include respond(tab-port) {
+            font-size: 6rem;
         }
         font-family: 'Six Caps', sans-serif !important;
         animation: initial-entrance 1.5s;
@@ -31,7 +30,11 @@
                 display: inline-block;
                 &:not(:first-child) {
                     margin-right: 7rem;
+                    @include respond(tab-port) {
+                        margin-right: 3rem;
+                    }
                 }
+                
                 margin: 1.5rem;
                 padding: .8rem;
                 height: 4rem;

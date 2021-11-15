@@ -1,8 +1,11 @@
 
 @import '../abstracts/variables.module.scss';
-
+@import '../abstracts/mixins.scss';
 .projects__div__project {
     width: 30rem;
+    @include respond(phone) {
+        width: 100%;
+    }
     text-align: center;
     position: relative;
     border-radius: 5px;

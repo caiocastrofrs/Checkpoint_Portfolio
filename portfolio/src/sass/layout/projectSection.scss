@@ -1,4 +1,5 @@
 @import '../abstracts/variables.module.scss';
+@import '../abstracts/mixins.scss';
 .projects {
     display: flex;
     padding: 10rem;
@@ -14,6 +15,9 @@
     }
     &__div {
         display: flex;
+        @include respond(phone) {
+            width: 100%;
+        }
         height: 50rem;
         overflow-y: scroll;
         justify-content: center;
@@ -23,7 +27,6 @@
     }
 }
 
-   
 
 ::-webkit-scrollbar
 {

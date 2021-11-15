@@ -13,7 +13,7 @@ const Project = ({title,src, page, repo}) => {
       }, []);
     return(
         <>
-        <div data-aos="fade-up" className="projects__div__project">
+        <div data-aos="fade-up" data-aos-anchor-placement="top-bottom" className="projects__div__project">
             <img src={src} alt="print of the project"  className="projects__div__project__img"/>
             <div className="projects__div__project__info">
             <h4 className="projects__div__project__info__title">{title}</h4>

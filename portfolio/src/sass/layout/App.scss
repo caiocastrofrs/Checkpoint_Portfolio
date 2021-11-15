@@ -1,10 +1,20 @@
+@import '../abstracts/mixins.scss';
 body {
-    font-size: 62.5%;
+    font-size: 62.5%;    
     scroll-behavior: smooth;
-    
+    @include respond(big-desktop) {
+        font-size: 75%;
+    }
+     
+    @include respond(tab-land) { 
+        font-size: 50.25%;
+    }
+
+    @include respond(tab-port) {
+        font-size: 50%; 
+    }
 }
 .first-section {
-    min-width: 100%;
     width: 100% !important;
     height: 100vh !important;
     position: relative;
