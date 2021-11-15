@@ -22,6 +22,10 @@
         @include respond(tab-port) {
             font-size: 2.5rem;
         }
+        @include respond(phone) {
+            font-size: 2rem;
+            margin-top: 2rem;
+        }
         font-weight: 700;
         background: -webkit-linear-gradient(left,$light-2, $light);
         background-clip: text;

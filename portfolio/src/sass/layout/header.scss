@@ -5,9 +5,11 @@
 .header {
     display: flex;
     justify-content: space-between;
+    @include respond(phone) {
+        flex-direction: column;
+    }
     &__logo {
         margin-left: 3rem;
-
         letter-spacing: 1.3rem;
         text-align: center;
         color: $light;

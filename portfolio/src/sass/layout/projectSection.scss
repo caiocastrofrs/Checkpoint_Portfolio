@@ -5,6 +5,9 @@
     padding: 10rem;
     flex-direction: column;
     background-color: $dark-2;
+    @include respond(phone) {
+        padding: 0;
+    }
     &__title {
         text-align: center;
         margin-bottom: 8rem;
@@ -17,6 +20,7 @@
         display: flex;
         @include respond(phone) {
             width: 100%;
+            gap: 10rem;
         }
         height: 50rem;
         overflow-y: scroll;
