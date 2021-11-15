@@ -8,6 +8,7 @@
     height: inherit;
     width: inherit;
     z-index: -1;
+    overflow: hidden;
     &__intro-text {
         position: absolute;
         text-align: center;
@@ -48,7 +49,7 @@
         z-index: 5;
         &:hover &__svg {
             transform: scale(1.1);
-            border-top: 2px solid #000;
+            border-top: 2px solid $color-black;
         }
         &__svg {
             transition: all .3s;
@@ -66,5 +67,6 @@
         -webkit-filter: blur(5px) saturate(150%);
         filter: blur(5px) saturate(150%);
         opacity: .45;
+
     }
 }
