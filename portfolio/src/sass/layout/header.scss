@@ -10,6 +10,15 @@
         text-align: center;
         color: $light;
         font-size: 10rem;
+        @media (max-width: 98.3rem) {
+            font-size: 8rem;
+        }
+        @media (max-width: 87.2rem) {
+            font-size: 7rem;
+        }
+        @media(max-width: 65.4rem) {
+            font-size: 5rem;
+        }
         font-family: 'Six Caps', sans-serif !important;
         animation: initial-entrance 1.5s;
     }
