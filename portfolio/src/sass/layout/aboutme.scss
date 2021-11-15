@@ -4,22 +4,18 @@
     display: flex;
     align-items:center;
     justify-content: center;
-    background-color: $primary-light;
-    background-image: linear-gradient(180deg, $primary-light 0%, $color-white 100%);
+    background-color: $dark-2;
     &__div {
         display: flex;
         flex-direction: row;
         flex-wrap: wrap;
         gap: 1rem;
-        width: 60%;
-        background-color: $secondary-light;
+/*         width: 60%; */
+        background-color: $light;
         position: relative;
         margin: 15rem 0 5rem;
         padding-bottom: 2rem;
         border-radius: 1rem;
-        -webkit-box-shadow: 0px 0px 125px -1px rgba(198,198,204,1);
-        -moz-box-shadow: 0px 0px 125px -1px rgba(198,198,204,1);
-        box-shadow: 0px 0px 125px -1px rgba(198,198,204,1);
         &__img {
             border-radius: 50%;
             position: absolute;
@@ -45,10 +41,10 @@
         }
 
         &__info {
-            width: 40%;
+            width: 27rem;
             margin-left: 2rem;
-
             &__title {
+                color: $gold-color;
                 font-weight: bold;
             }
             &__text {
@@ -60,13 +56,12 @@
             display: flex;
             flex-direction: column;
             font-size: 1.4rem;
-            border-left: 1px solid $primary-dark;
+            border-left: 1px solid $gold-color;
             margin-bottom: 1rem;
             &__scholls {
                 &__title {
+                    color: $gold-color;
                     font-weight: 700;
-                }
-                &__item {
                 }
             }
             &__skills {
@@ -75,6 +70,7 @@
                 justify-content: space-between;
                 gap: 2rem;
                 &__title {
+                    color: $gold-color;
                     width: 100%;
                     font-weight: 700;   
                     margin-bottom: 2rem;    

@@ -6,7 +6,7 @@ import Project from './Project/';
 const Projects = () => {
     return(
         <>
-            <section className="projects" id="projetos">
+            <section className="projects" id="projects">
             <span className="projects__title">Projetos</span>
                 <div className="projects__div">
                     {data.map(({title, src, page, repo}) => {

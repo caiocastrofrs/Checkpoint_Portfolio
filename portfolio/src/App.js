@@ -3,6 +3,10 @@ import Header from './components/Header'
 import Banner from './components/Banner'
 import AboutMe from './components/AboutMe'
 import Projects from './components/ProjectSection'
+import Footer  from './components/Footer'
+
+
+
 function App() {
   return (
     <>   
@@ -10,8 +14,9 @@ function App() {
       <Header />
       <Banner />
     </div> 
-    <AboutMe />
+    <AboutMe  />
     <Projects />
+    <Footer />
     </>
   );
 }

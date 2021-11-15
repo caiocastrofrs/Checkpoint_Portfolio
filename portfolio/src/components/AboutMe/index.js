@@ -5,14 +5,19 @@ import css3 from '../img/icons/css3.png';
 import javascript from '../img/icons/javascript.png';    
 import sass from '../img/icons/sass.png';    
 import react from '../img/icons/react.png';    
-
+import Aos from 'aos';
+import 'aos/dist/aos.css';
+import { useEffect } from 'react';
 
 
 const AboutMe = () => {
+    useEffect(() => {
+        Aos.init({ duration: 1500});
+      }, []);
     return(
         <>
             <section className ="about-me" id="aboutMe">
-                <div className="about-me__div">
+                <div data-aos="fade-up" className="about-me__div">
                     <img src="https://picsum.photos/200" alt="my profile pic" className="about-me__div__img"/>
                     <div className="about-me__div__name">
                         <span>{texts[0].name}</span>

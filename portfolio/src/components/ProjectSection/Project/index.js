@@ -3,10 +3,17 @@ import '../../../sass/layout/project.scss';
 import repoIcon from '../../img/icons/repo.svg';
 import pageIcon from '../../img/icons/page.svg';
 
+import Aos from 'aos';
+import 'aos/dist/aos.css';
+import { useEffect } from 'react';
+
 const Project = ({title,src, page, repo}) => {
+    useEffect(() => {
+        Aos.init({ duration: 1000});
+      }, []);
     return(
         <>
-        <div className="projects__div__project">
+        <div data-aos="fade-up" className="projects__div__project">
             <img src={src} alt="print of the project"  className="projects__div__project__img"/>
             <div className="projects__div__project__info">
             <h4 className="projects__div__project__info__title">{title}</h4>

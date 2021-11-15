@@ -8,7 +8,7 @@
         margin-left: 3rem;
         letter-spacing: 1.3rem;
         text-align: center;
-        color: $primary-dark;
+        color: $light;
         font-size: 10rem;
         font-family: 'Six Caps', sans-serif !important;
         animation: initial-entrance 1.5s;
@@ -26,21 +26,24 @@
                 margin: 1.5rem;
                 padding: .8rem;
                 height: 4rem;
-                background-image: linear-gradient(69deg, transparent 50%, $color-white 50%);
+                background-image: linear-gradient(69deg, transparent 50%, $light 50%);
                 background-size: 220%;
                 letter-spacing: .2rem;
                 animation: initial-entrance-item 1s;
                 transition: all .3s;
                 &__link:link,
                 &__link:visited{
-                    color: $primary-dark;
+                    color: $light;
                     font-size: 1.6rem;
                     display: block;
-                    transition: all .4s;
+                    transition: all .1s;
                 }
                 &:hover {
                     background-position: 100%;
                     transform: translateX(.3rem);
+                }
+                &:hover &__link {
+                    color: $dark;
                 }
             }
         }

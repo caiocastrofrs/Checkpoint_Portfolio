@@ -1,14 +1,22 @@
 //COLOR VARIABLES
-$primary-dark: #28221f;
-$primary-light:	#ded2c4;
-$neutral-color: #5c4b42;
-$secondary-light: #f3f3f3;
+$gold-color: #CBA135;
+
+$dark: #1D201D;
+$dark-2: #191919;
+
+$light: #EBEBEB;
+$light-2: #CCCCCC;
+
 $color-white: #fff;
 $color-black: #000;
+
 :export {
-    primary-dark: $primary-dark;
-    primary-light: $primary-light;
-    neutral-color: $neutral-color;
+    gold-color: $gold-color;
+    light: $light;
+    dark: $dark;
+    dark-2: $dark-2;
+    light: $light;
+    light-2: $light-2;
     color-white: $color-white;
     color-black: $color-black;
 }

@@ -17,14 +17,15 @@
         transform: translate(-50%,-50%);
         font-size: 4.5rem;
         font-weight: 700;
-        background: -webkit-linear-gradient(left,$neutral-color, $primary-dark);
+        background: -webkit-linear-gradient(left,$light-2, $light);
         background-clip: text;
         -webkit-text-fill-color: transparent;
         animation: introText 3s;
+        z-index: 2;
         &__name {
-            background: -webkit-linear-gradient(left,red, purple);
-        background-clip: text;
-        -webkit-text-fill-color: transparent;
+            background: -webkit-linear-gradient(left,$gold-color, #CDA43C);
+            background-clip: text;
+            -webkit-text-fill-color: transparent;
         }
     }
     &__link-text {
@@ -36,7 +37,7 @@
         font-size: 1.4rem;
         letter-spacing: .2rem;
         font-weight: 700;
-        color: $primary-dark;
+        color: $light;
         z-index: 2;
     }
     &__link-to-about-me {
@@ -44,7 +45,6 @@
         top: 90%;
         left: 50%;
         transform: translate(-50%);
-        color: $primary-dark;
         animation: arrowDown 1s;
         z-index: 5;
         &:hover &__svg {
@@ -57,16 +57,15 @@
             z-index: 6;
             padding: .5rem;
             border-top: 2px solid transparent;
-            filter: invert(24%) sepia(4%) saturate(3340%) hue-rotate(336deg) brightness(97%) contrast(72%);
+            filter: invert(76%) sepia(97%) saturate(7%) hue-rotate(246deg) brightness(114%) contrast(84%);
         }
     }
     &__video {
         height: 100%;
         width: 100%;
         object-fit: fill;
-        -webkit-filter: blur(5px) saturate(150%);
-        filter: blur(5px) saturate(150%);
-        opacity: .45;
-
+        -webkit-filter: saturate(150%) brightness(50%);
+        filter: saturate(150%) brightness(50%);
+        z-index: -1
     }
 }
