@@ -7,6 +7,7 @@
     background-color: $dark-2;
     @include respond(phone) {
         padding: 0;
+
     }
     &__title {
         text-align: center;
@@ -15,6 +16,9 @@
         font-weight: 700;
         letter-spacing: 1rem;
         color: $light;
+        @include respond(phone) {
+            font-size: 2rem;
+        }
     }
     &__div {
         display: flex;

@@ -27,21 +27,39 @@
         transform: translate(-50%, -30%);
         opacity: 0;
         transition: all .3s;
+        @include respond(phone) {
+            display: flex;
+            flex-wrap: wrap;
+        }
         color: $color-white;
         &__title {
             font-size: 1.5rem;
             margin-bottom: 1.5rem;
+            @include respond(phone) {
+                width: 100%;
+                text-align: center;
+            }
         }
         &__link {
             display: inline-block;
             padding: .3rem 1rem .3rem;
             margin: 1rem;
+            @include respond(phone) {
+                width: 25%;
+            }
             &__icon {
                 width: 3.2rem;
+                @include respond(phone) {
+                    width: 2.4rem;
+                    
+                }
                 filter: invert(94%) sepia(100%) saturate(26%) hue-rotate(93deg) brightness(107%) contrast(106%);
                 transition: all .2s;
                 &:hover {
                     transform: scale(1.05);
+                    @include respond(phone) {
+                        transform: none;
+                    }
                     filter: invert(68%) sepia(60%) saturate(498%) hue-rotate(2deg) brightness(85%) contrast(88%);
                 }
             }

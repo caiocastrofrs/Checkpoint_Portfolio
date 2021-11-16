@@ -2,6 +2,7 @@
 body {
     font-size: 62.5%;    
     scroll-behavior: smooth;
+
     @include respond(big-desktop) {
         font-size: 75%;
     }
@@ -14,9 +15,21 @@ body {
         font-size: 50%; 
     }
 }
+a {
+    text-decoration: none;
+}
+
 .first-section {
-    width: 100% !important;
-    height: 100vh !important;
+    width: 100%;
+    height: 100vh;
     position: relative;
     z-index: 0;
 }
+
+/* * {
+    background: #000 !important;
+    color: #0f0 !important;
+    outline: solid #f00 1px !important;
+  }
+
+ */

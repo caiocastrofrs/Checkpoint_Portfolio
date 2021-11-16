@@ -3,9 +3,7 @@
 .footer {
     background-color: $dark-2;
     &__list {
-
         &__item {
-            
             margin: 2rem;
             padding: 1rem;
             border-bottom: 3px solid transparent;
@@ -25,17 +23,13 @@
                 transition: all .3s;
                 &:hover {
                     transform: scale(1.1);
-
                 }
             }
             &__email {
                 position: absolute;
-                padding: 1rem;
-                font-size: 1.3rem;
                 transition: all .3s;
                 color: $light;
                 opacity: 0;
-
             }
 
             &:last-child:hover &__email {
@@ -45,7 +39,6 @@
                 @include respond(phone) {
                     transform: translate(-35%,100%);
                 }
-
             }
         }
     }

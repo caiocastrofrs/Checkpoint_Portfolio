@@ -6,7 +6,7 @@ import Email from '../img/icons/email.svg';
 const Footer = () => {
     return(
         <>
-        <footer className="py-3  font-size h4 footer" id="contact">
+        <footer className="py-3 h4 footer" id="contact">
             <ul className="nav justify-content-center pb-1 mb-1 footer__list">
                 <li className="nav-item"><a href="#home" className="nav-link px-2 text-light footer__list__item">Home</a></li>
                 <li className="nav-item"><a href="#aboutMe" className="nav-link px-2 text-light footer__list__item">Sobre mim</a></li>
@@ -24,7 +24,6 @@ const Footer = () => {
                 </a>
                 <a href="#">
                     <li className="footer__list-icons__item">
-                        <span className="footer__list-icons__item__email">caiocastrofrs@gmail.com</span>
                         <img src={Email} alt="linkedin icon" className="footer__list-icons__item__icon"  />
                     </li>
                 </a>

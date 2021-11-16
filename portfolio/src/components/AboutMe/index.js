@@ -17,24 +17,27 @@ const AboutMe = () => {
     return(
         <>
             <section className ="about-me" id="aboutMe">
-                <div data-aos="fade-up" className="about-me__div">
-                    <img src="https://picsum.photos/200" alt="my profile pic" className="about-me__div__img"/>
+                <div  data-aos="fade-up" className="about-me__div">
+                    <img src="https://picsum.photos/200" alt="my profile pic" className="about-me__div__img"/> 
+
                     <div className="about-me__div__name">
                         <span>{texts[0].name}</span>
                     </div>
+
                     <div className="about-me__div__info">
                         <h4 className="about-me__div__info__title">Sobre mim</h4>
                         <p className="about-me__div__info__text">
                             {texts[0].info}
                         </p>
-
                     </div>
+
                     <div className="about-me__div__tech-info">
                         <ul className="about-me__div__tech-info__scholls">
                             <h4 className="about-me__div__tech-info__scholls__title">Formação</h4>
-                            <li className="about-me__div__tech-info__scholls__item">{texts[0].school1}</li>
-                            <li className="about-me__div__tech-info__scholls__item">{texts[0].school2}</li>
+                            <li>{texts[0].school1}</li>
+                            <li>{texts[0].school2}</li>
                         </ul>
+
                         <ul className="about-me__div__tech-info__skills">
                             <h4 className="about-me__div__tech-info__skills__title">Skills</h4>
                             <li className="about-me__div__tech-info__skills__item"><img src={html5} alt="html5 icon"/></li>
@@ -43,8 +46,7 @@ const AboutMe = () => {
                             <li className="about-me__div__tech-info__skills__item"><img src={sass} alt="sass icon"/></li>
                             <li className="about-me__div__tech-info__skills__item"><img src={react} alt="react icon"/></li>
                         </ul>
-                    </div>
-                    
+                    </div> 
                 </div>
             </section>
         </>
