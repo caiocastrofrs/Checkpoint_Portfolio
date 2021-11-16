@@ -8,7 +8,7 @@ import react from '../img/icons/react.png';
 import Aos from 'aos';
 import 'aos/dist/aos.css';
 import { useEffect } from 'react';
-
+import profilePic from '../img/eu.png';
 
 const AboutMe = () => {
     useEffect(() => {
@@ -18,7 +18,7 @@ const AboutMe = () => {
         <>
             <section className ="about-me" id="aboutMe">
                 <div  data-aos="fade-up" className="about-me__div">
-                    <img src="https://picsum.photos/200" alt="my profile pic" className="about-me__div__img"/> 
+                    <img src={profilePic} alt="my profile pic" className="about-me__div__img"/> 
 
                     <div className="about-me__div__name">
                         <span>{texts[0].name}</span>

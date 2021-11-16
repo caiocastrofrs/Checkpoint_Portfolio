@@ -11,7 +11,6 @@
         @include respond(tab-land) {
             flex-direction: column;
             align-items: center;
-
         }
         @include respond(phone) {
             width: 100%;
@@ -27,10 +26,14 @@
         &__img {
             border-radius: 50%;
             border: .7rem solid $light;
+            width: 200px;
+            height: 200px;
             position: absolute;
             left: 50%;
-            top: -20%;
+            top: -16%;
             transform: translate(-50%);
+            max-width: 100%;
+            max-height: 100%;
             @include respond(tab-land) {
                 top: -12%;
             }
@@ -85,8 +88,6 @@
             font-size: 1.4rem;
             border-left: 1px solid $gold-color;
             margin-bottom: 1rem;
-            margin-left: 0;
- 
             @include respond(tab-land) {
                 text-align: center;
                 font-size: 1rem;

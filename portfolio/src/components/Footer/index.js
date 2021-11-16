@@ -12,19 +12,19 @@ const Footer = () => {
                 <li className="nav-item"><a href="#aboutMe" className="nav-link px-2 text-light footer__list__item">Sobre mim</a></li>
             </ul>
             <ul className="footer__list-icons">
-                <a href="#">
+                <a href="https://www.linkedin.com/in/caiocastrofrs/">
                     <li className="footer__list-icons__item">
                         <img src={Linkedin} alt="linkedin icon" className="footer__list-icons__item__icon"  />
                     </li>
                 </a>
-                <a href="#">
+                <a href="https://github.com/caiocastrofrs">
                     <li className="footer__list-icons__item">
-                        <img src={Github} alt="linkedin icon" className="footer__list-icons__item__icon"  />
+                        <img src={Github} alt="Github icon" className="footer__list-icons__item__icon"  />
                     </li>
                 </a>
-                <a href="#">
+                <a href="#home">
                     <li className="footer__list-icons__item">
-                        <img src={Email} alt="linkedin icon" className="footer__list-icons__item__icon"  />
+                        <img src={Email} alt="Email icon" className="footer__list-icons__item__icon"  />
                     </li>
                 </a>
             </ul>
