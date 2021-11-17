@@ -38,7 +38,10 @@
                 top: -12%;
             }
             @include respond(phone) {
-                top: -15%;
+                top: -12%;
+            }
+            @include respond(small-phone) {
+                top: -8%;
             }
         }
         &__name {
