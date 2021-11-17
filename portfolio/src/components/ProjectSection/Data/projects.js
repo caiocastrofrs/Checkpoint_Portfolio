@@ -26,8 +26,8 @@ export const data = [
     {
         "src": "images/frontend-mentor-cards.png",
         "title": "3-column preview card component",
-        "page": "https://github.com/caiocastrofrs/FrontendMentor-Cars",
-        "repo": "https://caiocastrofrs.github.io/FrontendMentor-Cars/"
+        "page": "https://caiocastrofrs.github.io/FrontendMentor-Cars/",
+        "repo": "https://github.com/caiocastrofrs/FrontendMentor-Cars"
     },
     {
         "src": "images/frontend-mentor-business.png",
@@ -62,7 +62,7 @@ export const data = [
     {
         "src": "images/profile-card.png",
         "title": "Profile Card",
-        "page": "https://github.com/caiocastrofrs/FrontendMentor-ProfileCard",
-        "repo": "https://caiocastrofrs.github.io/FrontendMentor-ProfileCard/"
+        "page": "https://caiocastrofrs.github.io/FrontendMentor-ProfileCard/",
+        "repo": "https://github.com/caiocastrofrs/FrontendMentor-ProfileCard"
     }
 ]
