@@ -2,6 +2,7 @@
 @import '../abstracts/mixins.scss';
 .footer {
     background-color: $dark-2;
+    
     &__list {
         &__item {
             margin: 2rem;

@@ -64,5 +64,23 @@ export const data = [
         "title": "Profile Card",
         "page": "https://caiocastrofrs.github.io/FrontendMentor-ProfileCard/",
         "repo": "https://github.com/caiocastrofrs/FrontendMentor-ProfileCard"
+    },
+    {
+        "src": "images/electrum.png",
+        "title": "Electrum",
+        "page": "https://electrum-two.vercel.app/",
+        "repo": "https://github.com/caiocastrofrs/electrum"
+    },
+    {
+        "src": "images/agency.png",
+        "title": "Agency",
+        "page": "https://agency-drab-alpha.vercel.app/",
+        "repo": "https://github.com/caiocastrofrs/Agency"
+    },
+    {
+        "src": "images/nft-preview.png",
+        "title": "NFT Preview",
+        "page": "https://nft-preview-neb2bwxbj-caiocastrofrs.vercel.app/",
+        "repo": "https://github.com/caiocastrofrs/NFT-Preview"
     }
 ]
