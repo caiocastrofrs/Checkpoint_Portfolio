@@ -86,25 +86,25 @@ export const data = [
     {
         "src": "images/cadastro.png",
         "title": "Cadastro",
-        "page": "https://nft-preview-neb2bwxbj-caiocastrofrs.vercel.app/",
-        "repo": "https://github.com/caiocastrofrs/NFT-Preview"
+        "page": "https://practice-project-lemon.vercel.app/",
+        "repo": "https://github.com/caiocastrofrs/practice-project"
     },
     {
         "src": "images/natours.png",
         "title": "Natours",
-        "page": "https://nft-preview-neb2bwxbj-caiocastrofrs.vercel.app/",
-        "repo": "https://github.com/caiocastrofrs/NFT-Preview"
+        "page": "https://natours-project-red.vercel.app/",
+        "repo": "https://github.com/caiocastrofrs/natours-project"
     },
     {
         "src": "images/nexter.png",
         "title": "Nexter",
-        "page": "https://nft-preview-neb2bwxbj-caiocastrofrs.vercel.app/",
-        "repo": "https://github.com/caiocastrofrs/NFT-Preview"
+        "page": "https://nexter-ten-pied.vercel.app/",
+        "repo": "https://github.com/caiocastrofrs/nexter"
     },
     {
         "src": "images/trillo.png",
         "title": "Trillo",
-        "page": "https://nft-preview-neb2bwxbj-caiocastrofrs.vercel.app/",
-        "repo": "https://github.com/caiocastrofrs/NFT-Preview"
+        "page": "https://trillo-flax.vercel.app/",
+        "repo": "https://github.com/caiocastrofrs/Trillo"
     }
 ]
