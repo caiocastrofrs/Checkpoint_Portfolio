@@ -82,5 +82,29 @@ export const data = [
         "title": "NFT Preview",
         "page": "https://nft-preview-neb2bwxbj-caiocastrofrs.vercel.app/",
         "repo": "https://github.com/caiocastrofrs/NFT-Preview"
+    },
+    {
+        "src": "images/cadastro.png",
+        "title": "Cadastro",
+        "page": "https://nft-preview-neb2bwxbj-caiocastrofrs.vercel.app/",
+        "repo": "https://github.com/caiocastrofrs/NFT-Preview"
+    },
+    {
+        "src": "images/natours.png",
+        "title": "Natours",
+        "page": "https://nft-preview-neb2bwxbj-caiocastrofrs.vercel.app/",
+        "repo": "https://github.com/caiocastrofrs/NFT-Preview"
+    },
+    {
+        "src": "images/nexter.png",
+        "title": "Nexter",
+        "page": "https://nft-preview-neb2bwxbj-caiocastrofrs.vercel.app/",
+        "repo": "https://github.com/caiocastrofrs/NFT-Preview"
+    },
+    {
+        "src": "images/trillo.png",
+        "title": "Trillo",
+        "page": "https://nft-preview-neb2bwxbj-caiocastrofrs.vercel.app/",
+        "repo": "https://github.com/caiocastrofrs/NFT-Preview"
     }
 ]
