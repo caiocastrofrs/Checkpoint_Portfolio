@@ -106,5 +106,17 @@ export const data = [
         "title": "Trillo",
         "page": "https://trillo-flax.vercel.app/",
         "repo": "https://github.com/caiocastrofrs/Trillo"
-    }
+    },
+    {
+        "src": "images/digitalbooking.png",
+        "title": "Digital Booking (Trabalho final)",
+        "page": "https://digital-bk.vercel.app/",
+        "repo": "https://github.com/juniorvilas/DigitalBK"
+    },
+    {
+        "src": "images/sunnyside.png",
+        "title": "Sunnyside Agency",
+        "page": "https://sunnyside-agency-3wi6wa9rm-caiocastrofrs.vercel.app/",
+        "repo": "https://github.com/caiocastrofrs/SunnysideAgency"
+    },
 ]
